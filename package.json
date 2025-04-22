@@ -1,6 +1,7 @@
 {
   "name": "@brekjs/loader-aws-secrets-manager",
   "private": false,
+  "access": "public",
   "version": "0.0.0-autorel",
   "description": "Brek loader for AWS Secrets Manager",
   "license": "MIT",

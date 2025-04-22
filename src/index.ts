@@ -14,7 +14,6 @@ import {SecretsManagerClient, GetSecretValueCommand} from '@aws-sdk/client-secre
  *   }
  * }
  *
- * Loader functions in brek must return a string.
  */
 
 export const awsSecret = async (params: {
