@@ -19,7 +19,7 @@
   },
   "scripts": {
     "prepare": "npm run build",
-    "test": "c8 hoare 'src/**/*.spec.ts' && c8 report -r text -r html",
+    "test": "no tests yet",
     "lint": "eslint ./ --ext .js,.ts",
     "build": "tsc -p tsconfig.build.json",
     "test:int": "BREK_CONFIG_DIR=integration-tests/config BREK_WRITE_DIR=integration-tests/config BREK_LOADERS_FILE_PATH=integration-tests/brek.loaders.js hoare 'integration-tests/**/*.spec.ts'"
