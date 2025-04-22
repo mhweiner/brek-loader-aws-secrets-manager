@@ -22,7 +22,7 @@ _config/prod.json_
       "region": "us-east-1"
     }
   }
-}
+} 
 ```
 > Note: Region is optional but recommended.
 
