@@ -5,7 +5,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![AutoRel](https://img.shields.io/badge/v2-AutoRel?label=AutoRel&labelColor=0ab5fc&color=grey&link=https%3A%2F%2Fgithub.com%2Fmhweiner%2Fautorel)](https://github.com/mhweiner/autorel)
 
-This is a loader for [brek](https://github.com/mhweiner/brek) that loads secrets from AWS Secrets Manager. It is a simple and easy-to-use loader that allows you to load secrets from AWS Secrets Manager into your configuration.
+This is a loader for [brek](https://github.com/mhweiner/brek) that loads secrets from [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html). It is a simple and easy-to-use loader that allows you to load secrets from AWS Secrets Manager into your configuration.
 
 ## Installation
 
