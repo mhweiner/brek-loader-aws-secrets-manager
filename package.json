@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": "Marc H. Weiner <mhweiner234@gmail.com> (https://mhweiner.com)",
   "main": "./dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "!dist/**/*.map",
@@ -23,7 +23,7 @@
     "lint": "eslint . --fix",
     "build": "tsc -p tsconfig.build.json",
     "test:int": "BREK_CONFIG_DIR=integration-tests/config BREK_WRITE_DIR=integration-tests/config BREK_LOADERS_FILE_PATH=integration-tests/brek.loaders.js kizu 'integration-tests/**/*.spec.ts'",
-    "validate": "npm run build && npm run lint && npm test"
+    "validate": "npm run build && npm run lint && npm test && npm run test:int"
   },
   "homepage": "https://github.com/mhweiner/brek-loader-aws-secrets-manager",
   "keywords": [
@@ -36,7 +36,7 @@
     "aws",
     "secrets",
     "manager",
-    "paramter",
+    "parameter",
     "store",
     "aws secrets manager",
     "aws parameter store",
