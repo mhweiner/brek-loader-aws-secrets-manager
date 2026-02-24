@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": "Marc H. Weiner <mhweiner234@gmail.com> (https://mhweiner.com)",
   "main": "./dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "!dist/**/*.map",
@@ -36,7 +36,7 @@
     "aws",
     "secrets",
     "manager",
-    "paramter",
+    "parameter",
     "store",
     "aws secrets manager",
     "aws parameter store",
